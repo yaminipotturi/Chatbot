@@ -6,16 +6,16 @@ import google.generativeai as gen_ai
 
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Chat with Pranikhil Pro!",
     page_icon=":Alien Monster:",  # Favicon emoji
-    layout="centered",  # Page layout option
+    layout="wide",  # Page layout option
 )
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = 'AIzaSyAPpGprYR6aOmuqaBKvcPEIyqsX4aZfhiw' # os.getenv("GOOGLE_API_KEY")
 
 # Set up Google nini-Pro AI model
 gen_ai.configure(api_key=GOOGLE_API_KEY)
