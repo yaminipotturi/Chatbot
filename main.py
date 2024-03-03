@@ -11,7 +11,7 @@ load_dotenv()
 # Configure Streamlit page settings
 st.set_page_config(
     page_title="Chat with Pranikhil Pro!",
-    page_icon=":brain:",  # Favicon emoji
+    page_icon=":Alien Monster:",  # Favicon emoji
     layout="centered",  # Page layout option
 )
 
@@ -36,7 +36,7 @@ if "chat_session" not in st.session_state:
 
 
 # Display the chatbot's title on the page
-st.title("🤖 Pranikhil Pro - ChatBot")
+st.title("🖥️ Pranikhil Pro - ChatBot")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
